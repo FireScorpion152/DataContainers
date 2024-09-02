@@ -351,7 +351,9 @@ void main()
 
 #ifdef RANGE_BASED_FOR_LIST
 	ForwardList list = { 3, 5, 8, 13, 21 };
+
 	//list.print();
+
 	for (int i : list)
 	{
 		cout << i << tab;
