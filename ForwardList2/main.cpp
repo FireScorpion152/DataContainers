@@ -405,6 +405,10 @@ void main()
 	List<int> list3 = list1 + list2;
 	//for (int i : list1)cout << i << tab; cout << endl;
 	//for (int i : list2)cout << i << tab; cout << endl;
+	//for (int i : list3)cout << i << tab; cout << endl;
 	Grow(list3);
 	for (int i : list3)cout << i << tab; cout << endl;
+
+	List<std::string> s_list = { "Хорошо","живёт","на","свете","Винни","Пух" };
+	for (std::string i : s_list) cout << i << tab; cout << endl;
 }
