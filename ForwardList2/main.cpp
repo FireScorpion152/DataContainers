@@ -409,6 +409,8 @@ void main()
 	Grow(list3);
 	for (int i : list3)cout << i << tab; cout << endl;
 
+	List<double> d_list = { 2.5, 2.7, 3.4, 5.2 };
+	for (double i : d_list) cout << i; cout << endl;
 	List<std::string> s_list = { "Хорошо","живёт","на","свете","Винни","Пух" };
 	for (std::string i : s_list) cout << i << tab; cout << endl;
 }
